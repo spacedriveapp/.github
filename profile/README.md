@@ -48,9 +48,7 @@ Many of us have multiple cloud accounts, drives that aren’t backed up and data
 
 
 # Features
-> NOTE: Spacedrive is under active development, most of the listed features are still experimental and subject to change.
-
-<!-- ### Rich context -->
+> NOTE: Spacedrive is under active development, most of the listed features are still experimental and subject to change. Additionally, most of the links on this page are broken but will be working once the repository is made public. 
 
 **Complete:** *(in testing)*
 - **[File discovery](#)** - Scan devices, drives and cloud accounts to build a directory of all files with metadata.
@@ -67,7 +65,7 @@ Many of us have multiple cloud accounts, drives that aren’t backed up and data
 - **[Tags](#)** - Define routines on custom tags to automate workflows, easily tag files individually, in bulk and automatically via rules.
 - **[Extensions](#)** - Build tools on top of Spacedrive, extend functionality and integrate third party services. Extension directory on [spacedrive.app/extensions](#).
   
-**To be developed (MVP):**  
+**To be developed (Post-MVP):**  
 - **[Cloud integration](#)** - Index & backup to Apple Photos, Google Drive, Dropbox, OneDrive & Mega + easy API for the community to add more.
 - **[Encrypted vault(s)](#)** - Effortlessly manage & encrypt sensitive files, built on top of VeraCrypt. Encrypt individual files or create flexible-size vaults.
 - **[Key manager](#)** - View, mount, dismount and hide keys. Mounted keys automatically unlock respective areas of your filesystem.
