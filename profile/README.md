@@ -13,11 +13,11 @@
     <br />
     <br />
     <b>Download for </b>
-    <a href="">macOS</a>
+    <a href="#">macOS</a>
     ·
-    <a href="">Windows</a>
+    <a href="#">Windows</a>
     ·
-    <a href="">Linux</a>
+    <a href="#">Linux</a>
     ·
     iOS
     ·
@@ -27,7 +27,8 @@
 
   </p>
 </p>
-Spacedrive is an open source cross-platform file manager, powered by a virtual distributed filesystem (<a href="#what-is-a-vdfs">VDFS</a>) written in Rust. <a href="https://spacedrive.app"><strong>Learn more »</strong></a>
+Spacedrive is an open source cross-platform file manager, powered by a virtual distributed filesystem (<a href="#what-is-a-vdfs">VDFS</a>) written in Rust. 
+<!-- <a href="https://spacedrive.app"><strong>Learn more »</strong></a> -->
 <br/>
 <br/>
 Organize files across many devices in one place. From cloud services to offline hard drives, Spacedrive combines the storage capacity and processing power of your devices into one personal distributed cloud, that is both secure and intuitive to use. 
@@ -105,7 +106,7 @@ If you are having issues ensure you are using the following versions of Rust and
 
 # Architecture
 This project is using what I'm calling the **"PRRTT"** stack (Prisma, Rust, React, TypeScript, Tauri). 
-- Prisma on the front-end? 🤯 Made possible thanks to [prisma-client-rust](), developed by [Brendonovich](). Gives us access to the powerful migration CLI in development, along with the Prisma syntax for our schema. The application bundles with the Prisma query engine and codegen for a beautiful Rust API. Our lightweight migration runner is custom built for a desktop app context.
+- Prisma on the front-end? 🤯 Made possible thanks to [prisma-client-rust](https://github.com/brendonovich/prisma-client-rust), developed by [Brendonovich](https://github.com/brendonovich). Gives us access to the powerful migration CLI in development, along with the Prisma syntax for our schema. The application bundles with the Prisma query engine and codegen for a beautiful Rust API. Our lightweight migration runner is custom built for a desktop app context.
 - Tauri allows us to create a pure Rust native OS webview, without the overhead of your average Electron app. This brings the bundle size and average memory usage down dramatically. It also contributes to a more native feel, especially on macOS due to Safari's close integration with the OS. 
 - The core (`sdcore`) is written in pure Rust.
 
@@ -117,13 +118,13 @@ This project is using what I'm calling the **"PRRTT"** stack (Prisma, Rust, Reac
 - `web`: A [Next.js](https://nextjs.org) app.
 
 ### Core:
-- `core`: The [Rust]() core, referred to internally as `sdcore`. Contains filesystem, database and networking logic. Can be deployed in a variety of host applications.
+- `core`: The [Rust](#) core, referred to internally as `sdcore`. Contains filesystem, database and networking logic. Can be deployed in a variety of host applications.
 
 ### Packages:
-- `client`: The [TypeScript]() Typescript client handling dataflow between UI and the Rust core.
-- `ui`: A [React Native]() / [RNW]() Component library.
+- `client`: The [TypeScript](#) Typescript client handling dataflow between UI and the Rust core.
+- `ui`: A [React Native](#) / [RNW](#) Component library.
 - `config`: `eslint` configurations (includes `eslint-config-next`, `eslint-config-prettier` and all `tsconfig.json` configs used throughout the monorepo.
-- `macos`: A [Swift]() Native binary for MacOS system extensions.
-- `ios`: A [Swift]() Native binary (planned).
-- `windows`: A [C#]() Native binary (planned).
-- `android`: A [Kotlin]() Native binary (planned).
+- `macos`: A [Swift](#) Native binary for MacOS system extensions.
+- `ios`: A [Swift](#) Native binary (planned).
+- `windows`: A [C#](#) Native binary (planned).
+- `android`: A [Kotlin](#) Native binary (planned).
