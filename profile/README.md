@@ -37,13 +37,25 @@ Organize files across many devices in one place. From cloud services to offline 
 For independent creatives, hoarders and those that want to own their digital footprint. Spacedrive provides a file management experience like no other, and its completely free.
 <br />
 <br />
+<img src="https://raw.githubusercontent.com/spacedriveapp/.github/main/profile/spacedrive_screenshot.jpg" alt="Logo">
+<br />
+<br />
+<img src="https://img.shields.io/discord/949090953497567312?label=Discord&color=5865F2" />
+<a href="https://twitter.com/spacedriveapp">
+  <img src="https://img.shields.io/badge/Twitter-00acee?logo=twitter&logoColor=white" />
+</a>
+<a href="https://instagram.com/spacedriveapp">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white" />
+</a>
+<img src="https://img.shields.io/static/v1?label=Licence&message=GNU%20v3&color=000" />
+<img src="https://img.shields.io/static/v1?label=Bundled%20Size&message=16.3MB&color=0974B4" />
+<img src="https://img.shields.io/static/v1?label=Stage&message=Alpha&color=2BB4AB" />
+<br />
+<br /> 
 
 > NOTE: Spacedrive is under active development, most of the listed features are still experimental and subject to change. Additionally, most of the links on this page are broken but will be working once the repository is made public. 
 > 
 <br />
-
-<img src="https://raw.githubusercontent.com/spacedriveapp/.github/main/profile/spacedrive_screenshot.jpg" alt="Logo">
-
 
 # What is a VDFS?
 A VDFS (virtual distributed filesystem) is a filesystem designed to work atop a variety of storage layers. It is not restricted to a single machine, with a uniform API to manipulate and access content across many devices. It achieves this by maintaining a virtual index of all storage locations, synchronizing the database between clients in realtime. This implementation also uses [CAS](https://en.wikipedia.org/wiki/Content-addressable_storage) (Content-addressable storage) to uniquely identify files, while keeping record of logical file paths relative to the storage locations. 
