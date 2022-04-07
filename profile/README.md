@@ -3,7 +3,7 @@
     
   </a>
   <p align="center">
-   <img width="100" height="100" src="./apps/desktop/src/assets/images/spacedrive_logo.png" alt="Logo">
+   <img width="100" height="100" src="https://raw.githubusercontent.com/spacedriveapp/.github/main/profile/spacedrive_logo.png" alt="Logo">
   </p>
   <h1 align="center"><b>Spacedrive</b></h1>
   <p align="center">
@@ -36,7 +36,7 @@ Organize files across many devices in one place. From cloud services to offline 
 For independent creatives, hoarders and those that want to own their digital footprint. Spacedrive provides a file management experience like no other, and its completely free.
 <br />
 <br />
-<img src="./apps/desktop/src/assets/images/spacedrive_screenshot_2.jpg" alt="Logo">
+<img src="https://raw.githubusercontent.com/spacedriveapp/.github/main/profile/spacedrive_screenshot_2.jpg" alt="Logo">
 
 # What is a VDFS?
 A VDFS (virtual distributed filesystem) is a filesystem designed to work atop a variety of storage layers. It is not restricted to a single machine, with a uniform API to manipulate and access content across many devices. It achieves this by maintaining a virtual index of all storage locations, synchronizing the database between clients in realtime. This implementation also uses [CAS](https://en.wikipedia.org/wiki/Content-addressable_storage) (Content-addressable storage) to uniquely identify files, while keeping record of logical file paths relative to the storage locations. 
