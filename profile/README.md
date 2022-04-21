@@ -127,8 +127,8 @@ This project is using what I'm calling the **"PRRTT"** stack (Prisma, Rust, Reac
 ### Apps:
 - `desktop`: A [Tauri](https://tauri.studio) app.
 - `mobile`: A [React Native](https://reactnative.dev/) app.
-- `landing`: A [React](https://reactjs.org) app.
-- `landing`: A [React](https://reactjs.org) app.
+- `web`: A [React](https://reactjs.org) webapp.
+- `landing`: A [React](https://reactjs.org) app using Vite SSR & Vite pages.
 
 ### Core:
 - `core`: The [Rust](#) core, referred to internally as `sdcore`. Contains filesystem, database and networking logic. Can be deployed in a variety of host applications.
@@ -136,7 +136,7 @@ This project is using what I'm calling the **"PRRTT"** stack (Prisma, Rust, Reac
 ### Packages:
 - `client`: A [TypeScript](#) client library to handle dataflow via RPC between UI and the Rust core.
 - `ui`: A [React]([#](https://reactjs.org)) Shared component library.
-- `interface`: The complete user interface in React
+- `interface`: The complete user interface in React (used by apps `desktop`, `web` and `landing`)
 - `config`: `eslint` configurations (includes `eslint-config-next`, `eslint-config-prettier` and all `tsconfig.json` configs used throughout the monorepo.
 - `macos`: A [Swift](#) Native binary for MacOS system extensions.
 - `ios`: A [Swift](#) Native binary (planned).
