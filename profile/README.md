@@ -96,7 +96,6 @@ Many of us have multiple cloud accounts, drives that aren’t backed up and data
 # Developer Installation Instructions
 This environment uses [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) and [pnpm](https://pnpm.io/installation). Ensure you have them installed before continuing.
 
-- `$ cargo install prisma-client-rust-cli`
 - `$ git clone https://github.com/spacedriveapp/spacedrive`
 - `$ cd spacedrive`
 - `$ pnpm i`
@@ -105,12 +104,9 @@ This environment uses [Cargo](https://doc.rust-lang.org/cargo/getting-started/in
 To quickly run only the desktop app after `prep` you can use:
 - `$ pnpm desktop dev`
 
-If you are making changes to any TS packages you must run their respective dev environments too, for example: 
-- `$ pnpm core dev`
-- `$ pnpm ui dev`
-  
-Or to run everything specific to desktop app development just run:
-- `$ pnpm dev`
+To run the landing page
+- `$ pnpm web dev` - runs the web app for the embed
+- `$ pnpm landing dev`
 
 If you are having issues ensure you are using the following versions of Rust and Node:
 - Rust version: **1.58.1**
