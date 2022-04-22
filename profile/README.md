@@ -9,7 +9,7 @@
   <p align="center">
    The universal file manager.
     <br />
-    <a href="https://spacedrive.co"><strong>spacedrive.app »</strong></a>
+    <a href="https://spacedrive.app"><strong>spacedrive.app »</strong></a>
     <br />
     <br />
     <b>Download for </b>
